@@ -25,14 +25,14 @@
 //     return 0;
 // }
 
-// int main(){
-//     int arr[4] = {1,2,3,4};
-//     int *p = arr;
-// for(int i=3; i>=0; i--){
-//          printf("%d",*(p+i));
-//     }
-//      return 0;
-//  }
+int main(){
+    int arr[4] = {1,2,3,4};
+    int *p = arr;
+for(int i=3; i>=0; i--){
+         printf("%d",*(p+i));
+    }
+     return 0;
+ }
 
 //2D arry
 
@@ -94,22 +94,23 @@
     return 0;
 }*/
 
-#include<stdio.h>
+// #include<stdio.h>
 
-int main(){
-    int num=345;
-    int original;
-    int res =0;
-    while (num !=0)
-    {
-        int last0= num%10;
-        res= res*10+ last0;
-        num= num/10;
-        printf("%d \n",res);
-    }   
-    if(original=res){
-        printf("palindrommmmmm");
-    }else{
-        printf("not ");
-    }
-}
+// int main(){
+//     int num=345;
+//     int original;
+//     int res =0;
+//     while (num !=0)
+//     {
+//         int last0= num%10;
+//         res= res*10+ last0;
+//         num= num/10;
+//         printf("%d \n",res);
+//     }   
+//     if(original=res){
+//         printf("palindrommmmmm");
+//     }else{
+//         printf("not ");
+//     }
+// }
+
